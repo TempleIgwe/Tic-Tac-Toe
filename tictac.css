@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.score,
+.time{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.square{
+    width: 150px;
+    height: 150px;
+    border: solid rgb(226, 187, 110) 1px;
+    
+}
